@@ -3,6 +3,7 @@ package org.example;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+
 public enum BankType {
     NEO("НеоКредит", "0.01"),
     AUM("Арум Финтех", "0.02"),

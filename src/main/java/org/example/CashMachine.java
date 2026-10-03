@@ -3,6 +3,7 @@ package org.example;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+
 public class CashMachine implements WithdrawalOperations, DepositOperations {
     public BigDecimal introduction(BigDecimal Balans, BigDecimal introd) {
         if (Balans == null || introd == null || introd.compareTo(new BigDecimal("0")) <= 0) {

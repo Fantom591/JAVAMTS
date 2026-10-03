@@ -3,6 +3,7 @@ package org.example;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+
 public interface WithdrawalOperations {
 
     BigDecimal Deduction(BigDecimal Balans, BigDecimal cost, BankType BankType);
