@@ -1,8 +1,7 @@
-package org.example;
+package TASK2;
 
 import java.math.BigDecimal;
 import java.util.*;
-import java.lang.Math;
 
 public class Main {
 
